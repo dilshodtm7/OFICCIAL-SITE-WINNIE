@@ -1,0 +1,81 @@
+.header{
+    width: 100%;
+    color: white;
+    font-size: 22px;
+    position:sticky;
+    top: 0;
+    background-color:#070a0e;
+}
+.logo{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.logo-text{
+           font-size: 50px;
+            font-weight: bold;
+            background: linear-gradient(90deg,  #ffffff, #ffffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+}
+@media screen and (max-width: 768px) {
+    .logo-text{
+        font-size: 32px;
+        font-weight: bold;
+        background: linear-gradient(90deg,  #ffffff, #f7f7f7);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    
+}
+
+
+
+.logo-image{
+    width: 80px;
+}
+
+
+
+
+.header-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active{
+    color: #FCC902;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.disactive{
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.insta{
+    width: 37px;
+
+}
+.youtube{
+    width: 35px;
+    border-radius: 50%;
+}
+
+.social-icons{
+    display: flex;
+    gap: 15px
+}
+@media screen and (max-width: 768px) {
+    .social-icons{
+ display: none !important;
+    } 
+}
